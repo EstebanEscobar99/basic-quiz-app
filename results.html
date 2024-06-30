@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/results.css">
+    <title>Quiz Results</title>
+</head>
+<body>
+<div class="container">
+    <main id="results-container" class="flex-center flex-column">
+        <h1>Results</h1>
+        <div id="final-score">Your score: 0</div>
+        <form id="save-score-form">
+            <label for="username">
+                Username
+                <br>
+                <input type="text" id="username" placeholder="Enter your name" required>
+            </label>
+            <button type="submit" class="btn">Save</button>
+        </form>
+        <div class="controls">
+            <a class="btn" href="index.html">Go Home</a>
+            <a class="btn" href="game.html">Play Again</a>
+        </div>
+    </main>
+</div>
+<script src="scripts/results.js"></script>
+</body>
+</html>
