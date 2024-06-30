@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <link rel="stylesheet" href="styles/game.css">
+    <title>Quiz Game</title>
 </head>
 <body>
-
+<div class="container">
+    <main id="quiz-container" class="flex-center flex-column">
+        <h1>Quiz Game</h1>
+        <div id="question-container" class="hide">
+            <div id="question">Question text</div>
+            <div id="answer-buttons" class="btn-grid">
+                <!-- Answer buttons will be added dynamically -->
+            </div>
+        </div>
+        <div class="controls">
+            <button id="next-btn" class="btn hide">Next</button>
+            <button id="start-btn" class="btn">Start</button>
+        </div>
+    </main>
+</div>
+<script src="scripts/game.js"></script>
 </body>
 </html>
